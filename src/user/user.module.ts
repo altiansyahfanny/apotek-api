@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { UserService } from './user.service';
 import { UserController } from './user.controller';
-import { CommonModule } from 'src/common/common.module';
-import { FileModule } from 'src/file/file.module';
+import { CommonModule } from '../common/common.module';
+import { FileModule } from '../file/file.module';
 
 @Module({
   imports: [CommonModule, FileModule],

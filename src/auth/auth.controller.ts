@@ -16,7 +16,7 @@ import {
   Response as ResponseExpress,
 } from 'express';
 import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
-import { WebResponse } from 'src/model/web.model';
+import { WebResponse } from '../model/web.model';
 import { Logger } from 'winston';
 import {
   ForgotPasswordRequest,

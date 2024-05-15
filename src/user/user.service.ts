@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
-import { PrismaService } from 'src/common/prisma.service';
-import { ValidationService } from 'src/common/validation.service';
-import { SearchUserRequest, UserResponse } from 'src/model/user.model';
-import { WebResponse } from 'src/model/web.model';
+import { PrismaService } from '../common/prisma.service';
+import { ValidationService } from '../common/validation.service';
+import { SearchUserRequest, UserResponse } from '../model/user.model';
+import { WebResponse } from '../model/web.model';
 import { UserValidation } from './user.validation';
 
 @Injectable()

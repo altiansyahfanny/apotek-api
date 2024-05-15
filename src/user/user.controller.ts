@@ -15,11 +15,11 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
-import { PrismaService } from 'src/common/prisma.service';
-import { RoleGuard } from 'src/guard/role.guard';
+import { PrismaService } from '../common/prisma.service';
+import { RoleGuard } from '../guard/role.guard';
 import { UserService } from './user.service';
-import { SearchUserRequest, UserResponse } from 'src/model/user.model';
-import { WebResponse } from 'src/model/web.model';
+import { SearchUserRequest, UserResponse } from '../model/user.model';
+import { WebResponse } from '../model/web.model';
 
 export type UserQueryType = {
   name?: string;

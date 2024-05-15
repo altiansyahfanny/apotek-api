@@ -12,8 +12,8 @@ import {
 import { Response as ResponseExpress } from 'express';
 import { FileService } from './file.service';
 import { FileInterceptor } from '@nestjs/platform-express';
-import { multerConfig } from 'src/config/multer.config';
-import { PrismaService } from 'src/common/prisma.service';
+import { multerConfig } from '../config/multer.config';
+import { PrismaService } from '../common/prisma.service';
 
 @Controller('file')
 export class FileController {

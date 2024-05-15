@@ -1,6 +1,6 @@
 import { MailerService } from '@nestjs-modules/mailer';
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
-import { TokenService } from 'src/common/token.service';
+import { TokenService } from '../common/token.service';
 
 @Injectable()
 export class MailService {
